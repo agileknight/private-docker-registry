@@ -1,2 +1,6 @@
 /registry-data
 /certs
+*.crt
+*.key
+*.csr
+.htpasswd
