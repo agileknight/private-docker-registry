@@ -2,7 +2,7 @@ proxy:
   restart: always
   image: containersol/docker-registry-proxy
   ports:
-    - 443:443
+    - 5000:443
   links:
     - registry:docker-registry
   environment:
